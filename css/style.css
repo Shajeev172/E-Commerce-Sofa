@@ -51,18 +51,18 @@ header{
     border-left: 0.3em solid transparent;
 }
 
-.nav-icons .five{
-	width: 15px;
-    height: 15px;
+.nav-icons .five {
+    width: 13px;
+    height: 13px;
     text-align: center;
-    line-height: 15px;
+    line-height: 14px;
     background: #e94c71;
     border-radius: 100%;
     position: absolute;
     color: #fff;
-    font-size: 10px;
-    top: 23px;
-    right: 3px;
+    font-size: 9px;
+    top: 25px;
+    right: 4px;
 }
 
 .nav-icons .fa-cart-plus{
@@ -719,14 +719,17 @@ p {
 }
 
 .footer_part .single_footer_part .mail_part input {
-    padding: 20px 8px;
+    padding: 20px 13px;
     font-size: 13px;
     border-radius: 5px;
-    border: 0 solid transparent;
     margin-top: 20px;
     width: 80%;
     background-color: #f9f9fe;
     margin-right: 170px;
+    opacity: .5;
+    box-shadow: none !important;
+    border: none !important;
+    color: transparent !important;
 }
 
 input {
@@ -805,6 +808,8 @@ button, input, optgroup, select, textarea {
     box-shadow: -1.717px 8.835px 29.76px 2.24px rgb(255 51 104 / 18%);
     color: #fff!important;
 }
-
+input:focus {
+    outline: none !important;
+}
 
 /*footer sec css End*/
